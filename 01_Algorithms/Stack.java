@@ -34,3 +34,13 @@ class Stack {
         return top == -1;
     }
 }
+
+class TestStack {
+    public static void main(String[] args) {
+        Stack testSt = new Stack(20);
+        testSt.push(10);
+        testSt.push(20);
+        int poppedItem = testSt.pop();
+        System.out.println(poppedItem);
+    }
+}
